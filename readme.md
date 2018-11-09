@@ -1,6 +1,4 @@
-# dired-here
-[![Build Status](https://travis-ci.org/EricCrosson/dired-here.svg?branch=master)](https://travis-ci.org/EricCrosson/dired-here)
-[![Version](https://img.shields.io/github/tag/EricCrosson/dired-here.svg)](https://github.com/EricCrosson/dired-here/releases)
+# dired-here [![Build Status](https://travis-ci.org/EricCrosson/dired-here.svg?branch=master)](https://travis-ci.org/EricCrosson/dired-here) [![Version](https://img.shields.io/github/tag/EricCrosson/dired-here.svg)](https://github.com/EricCrosson/dired-here/releases)
 
 > Open Dired-buffer of directory containing current buffer-file
 
