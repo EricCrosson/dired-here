@@ -53,13 +53,13 @@
 ;;;###autoload
 (defun dired-here ()
   "Open `dired' buffer of directory containing current buffer-file."
-  (interactive
+  (interactive)
    (let ((cwd (file-name-directory (or (buffer-file-name) ""))))
      (cond
       ((and cwd (file-exists-p cwd))
        (dired cwd))
       (t
-       (message "I'm not sure which dir to view."))))))
+       (message "I'm not sure which dir to view.")))))
 
 
 (provide 'dired-here)
